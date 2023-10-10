@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/toy1"/>
+            android:src="@drawable/toy"/>
         <ImageView
             android:id="@+id/char9"
             android:layout_width="0dp"
@@ -91,4 +91,10 @@
             android:src="@drawable/toy2"/>
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="투표 종료"/>
 </LinearLayout>
